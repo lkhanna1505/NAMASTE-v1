@@ -39,3 +39,8 @@
 {"level":"info","message":"🏥 NAMASTE-ICD11 API Server running on http://localhost:3000","service":"namaste-icd11-api","timestamp":"2025-10-03 11:55:34"}
 {"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"namaste-icd11-api","timestamp":"2025-10-03 11:55:34"}
 {"level":"info","message":"🔍 FHIR Metadata: http://localhost:3000/fhir/metadata","service":"namaste-icd11-api","timestamp":"2025-10-03 11:55:34"}
+{"level":"info","message":"Database connection established successfully","service":"namaste-icd11-api","timestamp":"2025-10-03 11:56:55"}
+{"level":"info","message":"Database synchronized","service":"namaste-icd11-api","timestamp":"2025-10-03 11:56:56"}
+{"level":"info","message":"🏥 NAMASTE-ICD11 API Server running on http://localhost:3000","service":"namaste-icd11-api","timestamp":"2025-10-03 11:56:56"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"namaste-icd11-api","timestamp":"2025-10-03 11:56:56"}
+{"level":"info","message":"🔍 FHIR Metadata: http://localhost:3000/fhir/metadata","service":"namaste-icd11-api","timestamp":"2025-10-03 11:56:56"}
