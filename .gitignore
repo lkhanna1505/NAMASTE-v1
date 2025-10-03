@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.env.production
+logs/
+*.log
+.DS_Store
+.vscode/
+.idea/
+dist/
+build/
+temp/
+*.tmp
+coverage/
