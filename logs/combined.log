@@ -1,0 +1,21 @@
+{"level":"info","message":"Database connection established successfully","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:19"}
+{"level":"info","message":"Database synchronized","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:20"}
+{"level":"info","message":"🏥 NAMASTE-ICD11 API Server running on http://localhost:3000","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:20"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:20"}
+{"level":"info","message":"🔍 FHIR Metadata: http://localhost:3000/fhir/metadata","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:20"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:23"}
+{"level":"info","message":"Database connection established successfully","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:26"}
+{"level":"info","message":"Database synchronized","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:27"}
+{"level":"info","message":"🏥 NAMASTE-ICD11 API Server running on http://localhost:3000","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:27"}
+{"level":"info","message":"📚 API Documentation: http://localhost:3000/api-docs","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:27"}
+{"level":"info","message":"🔍 FHIR Metadata: http://localhost:3000/fhir/metadata","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:27"}
+{"ip":"::1","level":"info","message":"GET /","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:39","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /favicon.ico","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:39","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /health","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:44","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /favicon.ico","service":"namaste-icd11-api","timestamp":"2025-10-03 08:26:45","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /api-docs/","service":"namaste-icd11-api","timestamp":"2025-10-03 08:35:27","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui.css","service":"namaste-icd11-api","timestamp":"2025-10-03 08:35:27","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui-init.js","service":"namaste-icd11-api","timestamp":"2025-10-03 08:35:27","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js","service":"namaste-icd11-api","timestamp":"2025-10-03 08:35:27","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui-bundle.js","service":"namaste-icd11-api","timestamp":"2025-10-03 08:35:27","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
+{"ip":"::1","level":"info","message":"GET /api-docs/favicon-16x16.png","service":"namaste-icd11-api","timestamp":"2025-10-03 08:35:28","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"}
