@@ -3,18 +3,23 @@ const path = require('path');
 const fs = require('fs');
 
 const loggerTransports = []; // Array to hold transports
-const logDir = 'logs';
 
-// --- DEVELOPMENT/LOCAL ENVIRONMENT LOGGING ---
-// Enable file writing and directory creation ONLY if not in production
-if (process.env.NODE_ENV !== 'production') {
+// Check if we are in a local development or testing environment
+const isLocalEnv = ['development', 'test'].includes(process.env.NODE_ENV);
+
+// --- CONDITIONAL FILE LOGGING ---
+if (isLocalEnv) {
+    const logDir = 'logs';
 
     // 1. CONDITIONAL FILE SYSTEM CHECK & DIRECTORY CREATION
     if (!fs.existsSync(logDir)) {
       try {
-        fs.mkdirSync(logDir);
+        // This is where the crash occurs due to winston's internal check.
+        // Even if we wrap this, winston's File constructor still attempts it.
+        // We ensure we only hit this in local envs where it should work.
+        fs.mkdirSync(logDir); 
       } catch (e) {
-        // Log a warning if directory creation fails (though it shouldn't locally)
+        // Log a warning if directory creation fails locally
         console.warn(`[LOGGER WARNING] Could not create log directory at ${logDir}: ${e.message}`);
       }
     }
@@ -30,20 +35,20 @@ if (process.env.NODE_ENV !== 'production') {
         })
     );
 
-    // 3. ADD COLORIZED CONSOLE TRANSPORT FOR DEVELOPMENT
+    // 3. ADD CONSOLE TRANSPORT FOR DEVELOPMENT (with color)
     loggerTransports.push(
         new winston.transports.Console({
             format: winston.format.combine(
               winston.format.colorize(),
               winston.format.simple()
             ),
-            level: 'debug' // Use debug level for local dev
+            level: 'debug' 
         })
     );
 
 } else {
     // --- PRODUCTION/DEPLOYED ENVIRONMENT LOGGING ---
-    // Only use Console transport in production (Vercel, Lambda, etc.)
+    // Only use Console transport in all other environments (Vercel, Lambda)
     loggerTransports.push(
         new winston.transports.Console({
             format: winston.format.combine(
